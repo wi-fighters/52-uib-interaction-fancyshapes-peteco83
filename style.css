@@ -3,22 +3,22 @@ html, body {
     margin: 0;
 }
 
-div {
+section {
     margin-top: 10px;
 }
 
-.dummyDiv1 {
+.task-one {
     background-color: aqua;
 }
 
-.dummyDiv1:before {
+.task-one:before {
     content: "Once upon a time ... ";
     font-weight: bold;
     font-style: italic;
     background-color: cornflowerblue;
 }
 
-.dummyDiv1:after {
+.task-one:after {
     content: "... The end";
     font-weight: bold;
     font-style: italic;
@@ -26,13 +26,13 @@ div {
     width: 200px;
 }
 
-.dummyDiv2 {
-    background: url('beach.jpg');
+.task-two {
+    background: url('./assets/beach.jpg');
     width: 500px;
     height: 400px;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);    
 }
 
-.dummyImage {
+.task-three {
     transform: rotate(180deg);   
 }
